@@ -1,12 +1,8 @@
 pay = 1000
-
-try:
-    price = int(input())
-except ValueError:
-    print("잘못된 입력입니다.")
-    exit()
+price = int(input())
 
 change = pay - price
+
 moneys = [500, 100, 50, 10, 5, 1]
 total_count = 0
 
