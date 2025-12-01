@@ -1,5 +1,3 @@
-import sys
-
 def find_fraction(X):
     
     n = 1
@@ -26,7 +24,7 @@ def find_fraction(X):
 
 
 try:
-    X = int(sys.stdin.readline())
+    X = int(input())
     find_fraction(X)
 except:
     pass
