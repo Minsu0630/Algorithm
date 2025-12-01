@@ -1,13 +1,11 @@
-import sys
-
 def solve():
     try:
-        N = int(sys.stdin.readline())
+        N = int(input())
     except:
         return
 
     try:
-        P = list(map(int, sys.stdin.readline().split()))
+        P = list(map(int, input().split()))
     except:
         return
 
