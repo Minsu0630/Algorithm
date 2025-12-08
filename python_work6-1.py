@@ -4,4 +4,4 @@ board = board.replace("XX", "BB")
 if 'X' in board:
     print("-1")
 else:
-    print()
+    print(board)
